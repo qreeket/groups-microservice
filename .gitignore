@@ -28,3 +28,5 @@
 
 # generated resources
 microservices/groups/icons/
+
+.DS_Store
