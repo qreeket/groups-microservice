@@ -13,7 +13,7 @@ func (ce *StreamDoc) GetFullDocument(result interface{}) error {
 	if err != nil {
 		return err
 	}
-	if err := bson.Unmarshal(bytes, result); err != nil {
+	if err = bson.Unmarshal(bytes, result); err != nil {
 		return err
 	}
 	return nil
